@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.example.bluetoothplugin" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>BluetoothPlugin</name>
+    <js-module name="BluetoothPlugin" src="www/com.example.bluetoothplugin.js">
+        <clobbers target="BluetoothPlugin" />
+    </js-module>
+    
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="BluetoothPlugin">
+                <param name="android-package" value="com.example.bluetoothplugin.BluetoothPlugin" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/BluetoothPlugin.java" target-dir="src/com/example/bluetoothplugin" />
+    </platform>
+</plugin>

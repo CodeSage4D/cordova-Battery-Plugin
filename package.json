@@ -1,0 +1,25 @@
+{
+  "name": "com.example.bluetoothplugin",
+  "version": "1.0.0",
+  "description": "This Plugin is used for basic bluetooth functionality shows.",
+  "cordova": {
+    "id": "com.example.bluetoothplugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Karan Mishra",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeSage4D/cordova-Battery-Plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CodeSage4D/cordova-Battery-Plugin/issues"
+  },
+  "homepage": "https://github.com/CodeSage4D/cordova-Battery-Plugin#readme"
+}
